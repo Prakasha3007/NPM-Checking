@@ -2,7 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-// Add services to the container.
+// Add services to the container.checking
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
